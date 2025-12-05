@@ -1,0 +1,326 @@
+.card {
+  width: 190px;
+  height: 254px;
+  padding: .8em;
+  background: #4e4b4b;
+  position: relative;
+  overflow: visible;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin: 20px;
+}
+
+/*categoria terror*/
+.card-info {
+  padding-top: 10%;
+}
+
+/*Hover*/
+.card-img:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(216, 21, 70, 0.25) 0px 13px 47px -5px, rgba(153, 14, 14, 0.3) 0px 8px 16px -8px;
+}
+
+
+
+.card-img1 {
+  background-image: url("./img/sorria.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55%;
+  width: 100%;
+  border-radius: .5rem;
+  transition: .3s ease;
+}
+
+.card-info {
+  padding-top: 10%;
+}
+
+/*Hover*/
+.card-img1:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(216, 37, 75, 0.25) 0px 13px 47px -5px, rgba(175, 45, 45, 0.3) 0px 8px 16px -8px;
+}
+
+
+.card-info {
+  padding-top: 10%;
+}
+
+.text-title {
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.text-body {
+  font-size: .9em;
+  padding-bottom: 10px;
+}
+
+.card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.card-img2 {
+  background-image: url("./img/O\ Exorcismo\ de\ Emily\ Rose.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55%;
+  width: 100%;
+  border-radius: .5rem;
+  transition: .3s ease;
+}
+
+.card-info {
+  padding-top: 10%;
+}
+
+/*Hover*/
+.card-img2:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(214, 32, 32, 0.25) 0px 13px 47px -5px, rgba(189, 76, 76, 0.3) 0px 8px 16px -8px;
+}
+
+.card-img3 {
+  background-image: url("./img/a\ hora\ do\ pesadelo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55%;
+  width: 100%;
+  border-radius: .5rem;
+  transition: .3s ease;
+}
+
+.card-info {
+  padding-top: 10%;
+}
+
+/*Hover*/
+.card-img3:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(138, 19, 55, 0.25) 0px 13px 47px -5px, rgba(211, 46, 46, 0.3) 0px 8px 16px -8px;
+}
+
+.card-img {
+  background-image: url("./IMG/hereditario.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55%;
+  width: 100%;
+  border-radius: .5rem;
+  transition: .3s ease;
+}
+
+.card-img4 {
+  background-image: url("./img/sobrenatural.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55%;
+  width: 100%;
+  border-radius: .5rem;
+  transition: .3s ease;
+}
+
+.card-info {
+  padding-top: 10%;
+}
+
+/*Hover*/
+.card-img4:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(184, 19, 60, 0.25) 0px 13px 47px -5px, rgba(168, 9, 9, 0.3) 0px 8px 16px -8px;
+}
+
+
+
+.efeito {
+  width: 80%;
+  height: 32px;
+  border: 0;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.paragrafo {
+  color: white;
+}
+
+p,
+a {
+  color: black;
+  text-align: center;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  /*organização da caixa*/
+
+  justify-content: space-around;
+  /*Organização na horizoltal*/
+  align-items: center;
+  /*Organização na vertical*/
+  height: 64px;
+  width: 100%;
+  background-color: rgb(255, 0, 0);
+  /*cor de fundo header*/
+}
+
+/*categoria ação*/
+.card-imgjohn {
+  background-image: url("./img/john-wick.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55%;
+  width: 100%;
+  border-radius: .5rem;
+  transition: .3s ease;
+}
+
+.card-info {
+  padding-top: 10%;
+}
+
+/*Hover*/
+.card-imgjohn:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(42, 20, 163, 0.25) 0px 13px 47px -5px, rgba(78, 15, 179, 0.3) 0px 8px 16px -8px;
+}
+
+.card-imgMad {
+  background-image: url("./img/mad-max.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55%;
+  width: 100%;
+  border-radius: .5rem;
+  transition: .3s ease;
+}
+
+.card-info {
+  padding-top: 10%;
+}
+
+/*Hover*/
+.card-imgMad:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(51, 8, 207, 0.25) 0px 13px 47px -5px, rgba(47, 15, 190, 0.3) 0px 8px 16px -8px;
+}
+
+.card-imgMatrix {
+  background-image: url("./img/Matrix.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55%;
+  width: 100%;
+  border-radius: .5rem;
+  transition: .3s ease;
+}
+
+.card-info {
+  padding-top: 10%;
+}
+
+/*Hover*/
+.card-imgMatrix:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(34, 38, 219, 0.25) 0px 13px 47px -5px, rgba(63, 14, 153, 0.3) 0px 8px 16px -8px;
+}
+
+.card-imgRid {
+  background-image: url("./img/Riddick.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55%;
+  width: 100%;
+  border-radius: .5rem;
+  transition: .3s ease;
+}
+
+.card-info {
+  padding-top: 10%;
+}
+
+/*Hover*/
+.card-imgRid:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(96, 11, 175, 0.25) 0px 13px 47px -5px, rgba(59, 26, 204, 0.3) 0px 8px 16px -8px;
+}
+
+
+
+
+/*card com efeitos giratorios */
+
+.card {
+  position: relative;
+  width: 190px;
+  height: 254px;
+  background-color: #4b4949;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 12px;
+  gap: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  left: -5px;
+  margin: auto;
+  width: 200px;
+  height: 264px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #690674 0%, #5e8291 100%);
+  z-index: -10;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #a25ca3 0%, #6825d4 100%);
+  transform: translate3d(0, 0, 0) scale(0.95);
+  filter: blur(20px);
+}
+
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.card p:not(.heading) {
+  font-size: 14px;
+}
+
+.card p:last-child {
+  color: #e81cff;
+  font-weight: 600;
+}
+
+.card:hover::after {
+  filter: blur(30px);
+}
+
+.card:hover::before {
+  transform: rotate(-90deg) scaleX(1.34) scaleY(0.77);
+}
